@@ -1,5 +1,6 @@
 // @ts-check
 const { VueLoaderPlugin } = require('vue-loader')
+const { default: htmlPlugin } = require('@rspack/plugin-html')
 
 /** @type import('@rspack/core').Configuration */
 module.exports = {
@@ -16,5 +17,11 @@ module.exports = {
       },
     ],
   },
-  plugins: [new VueLoaderPlugin()],
+  plugins: [
+    new htmlPlugin({
+      template: './index.html',
+      publicPath: '/',
+    }),
+    new VueLoaderPlugin(),
+  ],
 }

@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import('@unocss/reset/normalize.css')
-import('./style.css')
+import '@unocss/reset/normalize.css'
+import './style.css'
 console.log('Hello from Vue x Rspack')
 
 const count = ref(0)
