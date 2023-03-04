@@ -1,0 +1,26 @@
+{
+  "name": "vue-rspack",
+  "scripts": {
+    "build": "rspack",
+    "serve": "serve .",
+    "clean": "rm -rf dist"
+  },
+  "author": "三咲智子",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.0.24",
+    "@unocss/reset": "^0.50.3",
+    "file-loader": "^6.2.0",
+    "serve": "^14.2.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^17.0.1"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "vue-loader@17.0.1": "patches/vue-loader@17.0.1.patch"
+    }
+  }
+}
