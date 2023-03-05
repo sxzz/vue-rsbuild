@@ -14,7 +14,6 @@
     "@rspack/cli": "^0.0.24",
     "@rspack/plugin-html": "^0.0.24",
     "@unocss/reset": "^0.50.3",
-    "file-loader": "^6.2.0",
     "serve": "^14.2.0",
     "vue-loader": "^17.0.1"
   },

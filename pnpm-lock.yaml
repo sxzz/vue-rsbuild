@@ -9,7 +9,6 @@ specifiers:
   '@rspack/cli': ^0.0.24
   '@rspack/plugin-html': ^0.0.24
   '@unocss/reset': ^0.50.3
-  file-loader: ^6.2.0
   serve: ^14.2.0
   vue: ^3.2.47
   vue-loader: ^17.0.1
@@ -21,7 +20,6 @@ devDependencies:
   '@rspack/cli': 0.0.24
   '@rspack/plugin-html': 0.0.24
   '@unocss/reset': 0.50.3
-  file-loader: 6.2.0
   serve: 14.2.0
   vue-loader: 17.0.1_fyyno6j4o7a2iav3rslmw7u3ai_vue@3.2.47
 
@@ -1312,16 +1310,6 @@ packages:
     engines: {node: '>=0.8.0'}
     dependencies:
       websocket-driver: 0.7.4
-    dev: true
-
-  /file-loader/6.2.0:
-    resolution: {integrity: sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==}
-    engines: {node: '>= 10.13.0'}
-    peerDependencies:
-      webpack: ^4.0.0 || ^5.0.0
-    dependencies:
-      loader-utils: 2.0.4
-      schema-utils: 3.1.1
     dev: true
 
   /fill-range/7.0.1:

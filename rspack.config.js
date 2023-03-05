@@ -13,7 +13,7 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif)$/i,
         exclude: /\.vue$/,
-        loader: 'file-loader',
+        type: 'asset',
       },
     ],
   },
