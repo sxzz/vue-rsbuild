@@ -29,7 +29,7 @@ const count = ref(0)
         ></path>
       </svg>
 
-      <img src="./assets/rspack.png" alt="Rspack" style="width: 200px" />
+      <img src="./assets/rspack.svg" alt="Rspack" style="width: 200px" />
     </div>
     <h1>Hello, Vue x Rspack</h1>
 
