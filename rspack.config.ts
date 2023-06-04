@@ -1,8 +1,7 @@
 import { defineConfig } from '@rspack/cli'
 import { VueLoaderPlugin } from 'vue-loader'
 
-// @ts-expect-error
-export = defineConfig({
+const config = defineConfig({
   context: __dirname,
   entry: {
     main: './src/main.ts',
@@ -39,3 +38,4 @@ export = defineConfig({
   // @ts-expect-error
   plugins: [new VueLoaderPlugin()],
 })
+export = config
