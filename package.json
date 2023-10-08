@@ -11,10 +11,10 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.2.0",
-    "@unocss/reset": "^0.52.7",
-    "serve": "^14.2.0",
+    "@rspack/cli": "^0.3.6",
+    "@unocss/reset": "^0.56.5",
+    "serve": "^14.2.1",
     "ts-node": "^10.9.1",
-    "vue-loader": "^17.2.2"
+    "vue-loader": "^17.3.0"
   }
 }
