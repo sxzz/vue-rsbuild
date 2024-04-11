@@ -1,7 +1,8 @@
-# Vue 3 x Rspack
+# Vue 3 x Rsbuild
 
-> **Warning**: JUST FOR FUN, NOT FOR PRODUCTION.
+> [!NOTE]
+> Use `pnpm create rsbuild@latest` instead.
 
 ```bash
-pnpm build && pnpm serve
+pnpm build && pnpm preview
 ```
